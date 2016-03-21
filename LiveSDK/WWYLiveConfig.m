@@ -103,9 +103,42 @@
     
     LSMediaCapture *mediaCapture = [[LSMediaCapture alloc]initLiveStream:PUSHURL withLivestreamParaCtx:paraCtx];
     
+   
+    
+    [mediaCapture startVideoPreview:preview];
     
     
-     [mediaCapture startVideoPreview:preview];
+    
+    
+    //输出统计信息
+    
+    [mediaCapture setStatisticTimeInterval:1];
+    
+    
+    
+    LSStatistics* _pStatistics;//统计参数
+    
+    NSString* fps = [[NSString alloc]initWithFormat:@"帧率:%d", _pStatistics->videoSendFrameRate];
+    NSString* bitrate = [[NSString alloc]initWithFormat:@"码率:%d", _pStatistics->videoSendBitRate];
+    NSString* videoQuality = nil;
+    
+    switch (_sVideoParaCtx.videoStreamingQuality) {
+        case LS_VIDEO_QUALITY_HIGH:
+            videoQuality = [[NSString alloc] initWithFormat:@"高清"];
+            break;
+        case LS_VIDEO_QUALITY_MEDIUM:
+            videoQuality = [[NSString alloc] initWithFormat:@"标清"];
+            break;
+        case LS_VIDEO_QUALITY_LOW:
+            videoQuality = [[NSString alloc] initWithFormat:@"流畅"];
+            break;
+        default:
+            break;
+    }
+    
+    NSString* statInfo = [[NSString alloc] initWithFormat:@"%@\n %@\n %@\n", videoQuality, fps, bitrate];
+    
+    NSLog(@"输出信息 %@",statInfo);
     
     
     NSString* sdkVersion = [mediaCapture getSDKVersionID];
@@ -116,8 +149,14 @@
     
     
     return mediaCapture;
+    
+    
+    
+    
+    
 
 }
+
 + (id)configurePlay:(NELivePlayerController *)liveplayer{
 
     [liveplayer SetBufferStrategy:NELPLowDelay]; //直播低延时模式
