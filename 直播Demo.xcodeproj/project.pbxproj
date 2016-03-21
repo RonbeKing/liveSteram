@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F3222C21C9A56590040B8D3 /* PlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3222C01C9A56590040B8D3 /* PlayVC.m */; };
+		5F3222C31C9A56590040B8D3 /* PlayVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F3222C11C9A56590040B8D3 /* PlayVC.xib */; };
+		5F3CC2121C994E840034C189 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3CC2111C994E840034C189 /* main.m */; };
+		5F3CC2151C994E840034C189 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3CC2141C994E840034C189 /* AppDelegate.m */; };
+		5F3CC2181C994E840034C189 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3CC2171C994E840034C189 /* ViewController.m */; };
+		5F3CC21B1C994E840034C189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3CC2191C994E840034C189 /* Main.storyboard */; };
+		5F3CC21D1C994E840034C189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F3CC21C1C994E840034C189 /* Assets.xcassets */; };
+		5F3CC2201C994E840034C189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F3CC21E1C994E840034C189 /* LaunchScreen.storyboard */; };
+		5F3CC22B1C994E840034C189 /* __DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3CC22A1C994E840034C189 /* __DemoTests.m */; };
+		5F3CC2361C994E840034C189 /* __DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3CC2351C994E840034C189 /* __DemoUITests.m */; };
+		5F3CC2991C994FFB0034C189 /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2821C994FFB0034C189 /* libavcodec.a */; };
+		5F3CC29A1C994FFB0034C189 /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2831C994FFB0034C189 /* libavdevice.a */; };
+		5F3CC29B1C994FFB0034C189 /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2841C994FFB0034C189 /* libavfilter.a */; };
+		5F3CC29C1C994FFB0034C189 /* libavformat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2851C994FFB0034C189 /* libavformat.a */; };
+		5F3CC29D1C994FFB0034C189 /* libavresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2861C994FFB0034C189 /* libavresample.a */; };
+		5F3CC29E1C994FFB0034C189 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2871C994FFB0034C189 /* libavutil.a */; };
+		5F3CC29F1C994FFB0034C189 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2881C994FFB0034C189 /* libcrypto.a */; };
+		5F3CC2A01C994FFB0034C189 /* libfdk-aac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2891C994FFB0034C189 /* libfdk-aac.a */; };
+		5F3CC2A11C994FFB0034C189 /* libLSMediaCapture.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC28A1C994FFB0034C189 /* libLSMediaCapture.a */; };
+		5F3CC2A21C994FFB0034C189 /* libLSMediaCapture_i386_x86_64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC28B1C994FFB0034C189 /* libLSMediaCapture_i386_x86_64.a */; };
+		5F3CC2A31C994FFB0034C189 /* libNELivePlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC28C1C994FFB0034C189 /* libNELivePlayer.a */; };
+		5F3CC2A41C994FFB0034C189 /* libopenh264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC28D1C994FFB0034C189 /* libopenh264.a */; };
+		5F3CC2A51C994FFB0034C189 /* librtmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC28E1C994FFB0034C189 /* librtmp.a */; };
+		5F3CC2A61C994FFB0034C189 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC28F1C994FFB0034C189 /* libssl.a */; };
+		5F3CC2A71C994FFB0034C189 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2901C994FFB0034C189 /* libswresample.a */; };
+		5F3CC2A81C994FFB0034C189 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2911C994FFB0034C189 /* libswscale.a */; };
+		5F3CC2A91C994FFB0034C189 /* libyuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2921C994FFB0034C189 /* libyuv.a */; };
+		5F3CC2AA1C994FFB0034C189 /* WWYLiveConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3CC2981C994FFB0034C189 /* WWYLiveConfig.m */; };
+		5F3CC2AC1C99504B0034C189 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2AB1C99504B0034C189 /* AudioToolbox.framework */; };
+		5F3CC2AE1C9950530034C189 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2AD1C9950530034C189 /* QuartzCore.framework */; };
+		5F3CC2B01C99505A0034C189 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2AF1C99505A0034C189 /* AVFoundation.framework */; };
+		5F3CC2B21C99506D0034C189 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2B11C99506D0034C189 /* CoreTelephony.framework */; };
+		5F3CC2B41C9950760034C189 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2B31C9950760034C189 /* CoreMedia.framework */; };
+		5F3CC2B61C9950830034C189 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2B51C9950830034C189 /* OpenGLES.framework */; };
+		5F3CC2B81C9950970034C189 /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2B71C9950970034C189 /* libz.1.tbd */; };
+		5F3CC2BA1C9950A40034C189 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2B91C9950A40034C189 /* libbz2.tbd */; };
+		5F3CC2BC1C9950B10034C189 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2BB1C9950B10034C189 /* libstdc++.tbd */; };
+		5F3CC2BE1C9950BB0034C189 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2BD1C9950BB0034C189 /* libiconv.tbd */; };
+		5F3CC2C01C9951430034C189 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2BF1C9951430034C189 /* Foundation.framework */; };
+		5F3CC2C21C9951540034C189 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2C11C9951540034C189 /* CoreAudio.framework */; };
+		5F3CC2C41C9951600034C189 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2C31C9951600034C189 /* CoreGraphics.framework */; };
+		5F3CC2C61C9951A40034C189 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2C51C9951A40034C189 /* VideoToolbox.framework */; };
+		5F3CC2C81C9951AE0034C189 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2C71C9951AE0034C189 /* UIKit.framework */; };
+		5F3CC2CA1C9951C20034C189 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F3CC2C91C9951C20034C189 /* libz.tbd */; };
+		5F3CC2D11C99531B0034C189 /* LiveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3CC2CF1C99531A0034C189 /* LiveVC.m */; };
+		5F3CC2D21C99531B0034C189 /* LiveVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F3CC2D01C99531A0034C189 /* LiveVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F3CC2271C994E840034C189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F3CC2051C994E840034C189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F3CC20C1C994E840034C189;
+			remoteInfo = "直播Demo";
+		};
+		5F3CC2321C994E840034C189 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F3CC2051C994E840034C189 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F3CC20C1C994E840034C189;
+			remoteInfo = "直播Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F3222BF1C9A56590040B8D3 /* PlayVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayVC.h; sourceTree = "<group>"; };
+		5F3222C01C9A56590040B8D3 /* PlayVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayVC.m; sourceTree = "<group>"; };
+		5F3222C11C9A56590040B8D3 /* PlayVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayVC.xib; sourceTree = "<group>"; };
+		5F3CC20D1C994E840034C189 /* 直播Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "直播Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3CC2111C994E840034C189 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5F3CC2131C994E840034C189 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5F3CC2141C994E840034C189 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5F3CC2161C994E840034C189 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5F3CC2171C994E840034C189 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5F3CC21A1C994E840034C189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F3CC21C1C994E840034C189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F3CC21F1C994E840034C189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F3CC2211C994E840034C189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3CC2261C994E840034C189 /* 直播DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "直播DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3CC22A1C994E840034C189 /* __DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __DemoTests.m; sourceTree = "<group>"; };
+		5F3CC22C1C994E840034C189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3CC2311C994E840034C189 /* 直播DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "直播DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F3CC2351C994E840034C189 /* __DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __DemoUITests.m; sourceTree = "<group>"; };
+		5F3CC2371C994E840034C189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F3CC2821C994FFB0034C189 /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavcodec.a; sourceTree = "<group>"; };
+		5F3CC2831C994FFB0034C189 /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavdevice.a; sourceTree = "<group>"; };
+		5F3CC2841C994FFB0034C189 /* libavfilter.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavfilter.a; sourceTree = "<group>"; };
+		5F3CC2851C994FFB0034C189 /* libavformat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavformat.a; sourceTree = "<group>"; };
+		5F3CC2861C994FFB0034C189 /* libavresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavresample.a; sourceTree = "<group>"; };
+		5F3CC2871C994FFB0034C189 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavutil.a; sourceTree = "<group>"; };
+		5F3CC2881C994FFB0034C189 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		5F3CC2891C994FFB0034C189 /* libfdk-aac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libfdk-aac.a"; sourceTree = "<group>"; };
+		5F3CC28A1C994FFB0034C189 /* libLSMediaCapture.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLSMediaCapture.a; sourceTree = "<group>"; };
+		5F3CC28B1C994FFB0034C189 /* libLSMediaCapture_i386_x86_64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLSMediaCapture_i386_x86_64.a; sourceTree = "<group>"; };
+		5F3CC28C1C994FFB0034C189 /* libNELivePlayer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNELivePlayer.a; sourceTree = "<group>"; };
+		5F3CC28D1C994FFB0034C189 /* libopenh264.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopenh264.a; sourceTree = "<group>"; };
+		5F3CC28E1C994FFB0034C189 /* librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = librtmp.a; sourceTree = "<group>"; };
+		5F3CC28F1C994FFB0034C189 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		5F3CC2901C994FFB0034C189 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswresample.a; sourceTree = "<group>"; };
+		5F3CC2911C994FFB0034C189 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
+		5F3CC2921C994FFB0034C189 /* libyuv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libyuv.a; sourceTree = "<group>"; };
+		5F3CC2931C994FFB0034C189 /* LSMediaCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSMediaCapture.h; sourceTree = "<group>"; };
+		5F3CC2941C994FFB0034C189 /* NELivePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NELivePlayer.h; sourceTree = "<group>"; };
+		5F3CC2951C994FFB0034C189 /* NELivePlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NELivePlayerController.h; sourceTree = "<group>"; };
+		5F3CC2961C994FFB0034C189 /* nMediaLiveStreamingDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nMediaLiveStreamingDefs.h; sourceTree = "<group>"; };
+		5F3CC2971C994FFB0034C189 /* WWYLiveConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWYLiveConfig.h; sourceTree = "<group>"; };
+		5F3CC2981C994FFB0034C189 /* WWYLiveConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWYLiveConfig.m; sourceTree = "<group>"; };
+		5F3CC2AB1C99504B0034C189 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5F3CC2AD1C9950530034C189 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5F3CC2AF1C99505A0034C189 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5F3CC2B11C99506D0034C189 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		5F3CC2B31C9950760034C189 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		5F3CC2B51C9950830034C189 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		5F3CC2B71C9950970034C189 /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = usr/lib/libz.1.tbd; sourceTree = SDKROOT; };
+		5F3CC2B91C9950A40034C189 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		5F3CC2BB1C9950B10034C189 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		5F3CC2BD1C9950BB0034C189 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		5F3CC2BF1C9951430034C189 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5F3CC2C11C9951540034C189 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		5F3CC2C31C9951600034C189 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5F3CC2C51C9951A40034C189 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		5F3CC2C71C9951AE0034C189 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5F3CC2C91C9951C20034C189 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		5F3CC2CE1C99531A0034C189 /* LiveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveVC.h; sourceTree = "<group>"; };
+		5F3CC2CF1C99531A0034C189 /* LiveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveVC.m; sourceTree = "<group>"; };
+		5F3CC2D01C99531A0034C189 /* LiveVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveVC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F3CC20A1C994E840034C189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3CC2CA1C9951C20034C189 /* libz.tbd in Frameworks */,
+				5F3CC2C81C9951AE0034C189 /* UIKit.framework in Frameworks */,
+				5F3CC2C61C9951A40034C189 /* VideoToolbox.framework in Frameworks */,
+				5F3CC2C41C9951600034C189 /* CoreGraphics.framework in Frameworks */,
+				5F3CC2C21C9951540034C189 /* CoreAudio.framework in Frameworks */,
+				5F3CC2C01C9951430034C189 /* Foundation.framework in Frameworks */,
+				5F3CC2BE1C9950BB0034C189 /* libiconv.tbd in Frameworks */,
+				5F3CC2BC1C9950B10034C189 /* libstdc++.tbd in Frameworks */,
+				5F3CC2BA1C9950A40034C189 /* libbz2.tbd in Frameworks */,
+				5F3CC2B81C9950970034C189 /* libz.1.tbd in Frameworks */,
+				5F3CC2B61C9950830034C189 /* OpenGLES.framework in Frameworks */,
+				5F3CC2B41C9950760034C189 /* CoreMedia.framework in Frameworks */,
+				5F3CC2B21C99506D0034C189 /* CoreTelephony.framework in Frameworks */,
+				5F3CC2B01C99505A0034C189 /* AVFoundation.framework in Frameworks */,
+				5F3CC2AE1C9950530034C189 /* QuartzCore.framework in Frameworks */,
+				5F3CC2AC1C99504B0034C189 /* AudioToolbox.framework in Frameworks */,
+				5F3CC29E1C994FFB0034C189 /* libavutil.a in Frameworks */,
+				5F3CC2A71C994FFB0034C189 /* libswresample.a in Frameworks */,
+				5F3CC2A01C994FFB0034C189 /* libfdk-aac.a in Frameworks */,
+				5F3CC2A61C994FFB0034C189 /* libssl.a in Frameworks */,
+				5F3CC2A81C994FFB0034C189 /* libswscale.a in Frameworks */,
+				5F3CC29B1C994FFB0034C189 /* libavfilter.a in Frameworks */,
+				5F3CC2A31C994FFB0034C189 /* libNELivePlayer.a in Frameworks */,
+				5F3CC29A1C994FFB0034C189 /* libavdevice.a in Frameworks */,
+				5F3CC2A41C994FFB0034C189 /* libopenh264.a in Frameworks */,
+				5F3CC2991C994FFB0034C189 /* libavcodec.a in Frameworks */,
+				5F3CC29C1C994FFB0034C189 /* libavformat.a in Frameworks */,
+				5F3CC29D1C994FFB0034C189 /* libavresample.a in Frameworks */,
+				5F3CC2A21C994FFB0034C189 /* libLSMediaCapture_i386_x86_64.a in Frameworks */,
+				5F3CC2A11C994FFB0034C189 /* libLSMediaCapture.a in Frameworks */,
+				5F3CC2A91C994FFB0034C189 /* libyuv.a in Frameworks */,
+				5F3CC2A51C994FFB0034C189 /* librtmp.a in Frameworks */,
+				5F3CC29F1C994FFB0034C189 /* libcrypto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3CC2231C994E840034C189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3CC22E1C994E840034C189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F3CC2041C994E840034C189 = {
+			isa = PBXGroup;
+			children = (
+				5F3CC2C91C9951C20034C189 /* libz.tbd */,
+				5F3CC2C71C9951AE0034C189 /* UIKit.framework */,
+				5F3CC2C51C9951A40034C189 /* VideoToolbox.framework */,
+				5F3CC2C31C9951600034C189 /* CoreGraphics.framework */,
+				5F3CC2C11C9951540034C189 /* CoreAudio.framework */,
+				5F3CC2BF1C9951430034C189 /* Foundation.framework */,
+				5F3CC2BD1C9950BB0034C189 /* libiconv.tbd */,
+				5F3CC2BB1C9950B10034C189 /* libstdc++.tbd */,
+				5F3CC2B91C9950A40034C189 /* libbz2.tbd */,
+				5F3CC2B71C9950970034C189 /* libz.1.tbd */,
+				5F3CC2B51C9950830034C189 /* OpenGLES.framework */,
+				5F3CC2B31C9950760034C189 /* CoreMedia.framework */,
+				5F3CC2B11C99506D0034C189 /* CoreTelephony.framework */,
+				5F3CC2AF1C99505A0034C189 /* AVFoundation.framework */,
+				5F3CC2AD1C9950530034C189 /* QuartzCore.framework */,
+				5F3CC2AB1C99504B0034C189 /* AudioToolbox.framework */,
+				5F3CC2801C994FFB0034C189 /* LiveSDK */,
+				5F3CC20F1C994E840034C189 /* 直播Demo */,
+				5F3CC2291C994E840034C189 /* 直播DemoTests */,
+				5F3CC2341C994E840034C189 /* 直播DemoUITests */,
+				5F3CC20E1C994E840034C189 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F3CC20E1C994E840034C189 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F3CC20D1C994E840034C189 /* 直播Demo.app */,
+				5F3CC2261C994E840034C189 /* 直播DemoTests.xctest */,
+				5F3CC2311C994E840034C189 /* 直播DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F3CC20F1C994E840034C189 /* 直播Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5F3CC2131C994E840034C189 /* AppDelegate.h */,
+				5F3CC2141C994E840034C189 /* AppDelegate.m */,
+				5F3CC2161C994E840034C189 /* ViewController.h */,
+				5F3CC2171C994E840034C189 /* ViewController.m */,
+				5F3CC2191C994E840034C189 /* Main.storyboard */,
+				5F3CC2CE1C99531A0034C189 /* LiveVC.h */,
+				5F3CC2CF1C99531A0034C189 /* LiveVC.m */,
+				5F3CC2D01C99531A0034C189 /* LiveVC.xib */,
+				5F3222BF1C9A56590040B8D3 /* PlayVC.h */,
+				5F3222C01C9A56590040B8D3 /* PlayVC.m */,
+				5F3222C11C9A56590040B8D3 /* PlayVC.xib */,
+				5F3CC21C1C994E840034C189 /* Assets.xcassets */,
+				5F3CC21E1C994E840034C189 /* LaunchScreen.storyboard */,
+				5F3CC2211C994E840034C189 /* Info.plist */,
+				5F3CC2101C994E840034C189 /* Supporting Files */,
+			);
+			path = "直播Demo";
+			sourceTree = "<group>";
+		};
+		5F3CC2101C994E840034C189 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F3CC2111C994E840034C189 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F3CC2291C994E840034C189 /* 直播DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F3CC22A1C994E840034C189 /* __DemoTests.m */,
+				5F3CC22C1C994E840034C189 /* Info.plist */,
+			);
+			path = "直播DemoTests";
+			sourceTree = "<group>";
+		};
+		5F3CC2341C994E840034C189 /* 直播DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F3CC2351C994E840034C189 /* __DemoUITests.m */,
+				5F3CC2371C994E840034C189 /* Info.plist */,
+			);
+			path = "直播DemoUITests";
+			sourceTree = "<group>";
+		};
+		5F3CC2801C994FFB0034C189 /* LiveSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5F3CC2811C994FFB0034C189 /* LiveStreaming */,
+				5F3CC2971C994FFB0034C189 /* WWYLiveConfig.h */,
+				5F3CC2981C994FFB0034C189 /* WWYLiveConfig.m */,
+			);
+			path = LiveSDK;
+			sourceTree = "<group>";
+		};
+		5F3CC2811C994FFB0034C189 /* LiveStreaming */ = {
+			isa = PBXGroup;
+			children = (
+				5F3CC2821C994FFB0034C189 /* libavcodec.a */,
+				5F3CC2831C994FFB0034C189 /* libavdevice.a */,
+				5F3CC2841C994FFB0034C189 /* libavfilter.a */,
+				5F3CC2851C994FFB0034C189 /* libavformat.a */,
+				5F3CC2861C994FFB0034C189 /* libavresample.a */,
+				5F3CC2871C994FFB0034C189 /* libavutil.a */,
+				5F3CC2881C994FFB0034C189 /* libcrypto.a */,
+				5F3CC2891C994FFB0034C189 /* libfdk-aac.a */,
+				5F3CC28A1C994FFB0034C189 /* libLSMediaCapture.a */,
+				5F3CC28B1C994FFB0034C189 /* libLSMediaCapture_i386_x86_64.a */,
+				5F3CC28C1C994FFB0034C189 /* libNELivePlayer.a */,
+				5F3CC28D1C994FFB0034C189 /* libopenh264.a */,
+				5F3CC28E1C994FFB0034C189 /* librtmp.a */,
+				5F3CC28F1C994FFB0034C189 /* libssl.a */,
+				5F3CC2901C994FFB0034C189 /* libswresample.a */,
+				5F3CC2911C994FFB0034C189 /* libswscale.a */,
+				5F3CC2921C994FFB0034C189 /* libyuv.a */,
+				5F3CC2931C994FFB0034C189 /* LSMediaCapture.h */,
+				5F3CC2941C994FFB0034C189 /* NELivePlayer.h */,
+				5F3CC2951C994FFB0034C189 /* NELivePlayerController.h */,
+				5F3CC2961C994FFB0034C189 /* nMediaLiveStreamingDefs.h */,
+			);
+			path = LiveStreaming;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F3CC20C1C994E840034C189 /* 直播Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F3CC23A1C994E840034C189 /* Build configuration list for PBXNativeTarget "直播Demo" */;
+			buildPhases = (
+				5F3CC2091C994E840034C189 /* Sources */,
+				5F3CC20A1C994E840034C189 /* Frameworks */,
+				5F3CC20B1C994E840034C189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "直播Demo";
+			productName = "直播Demo";
+			productReference = 5F3CC20D1C994E840034C189 /* 直播Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F3CC2251C994E840034C189 /* 直播DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F3CC23D1C994E840034C189 /* Build configuration list for PBXNativeTarget "直播DemoTests" */;
+			buildPhases = (
+				5F3CC2221C994E840034C189 /* Sources */,
+				5F3CC2231C994E840034C189 /* Frameworks */,
+				5F3CC2241C994E840034C189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F3CC2281C994E840034C189 /* PBXTargetDependency */,
+			);
+			name = "直播DemoTests";
+			productName = "直播DemoTests";
+			productReference = 5F3CC2261C994E840034C189 /* 直播DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F3CC2301C994E840034C189 /* 直播DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F3CC2401C994E840034C189 /* Build configuration list for PBXNativeTarget "直播DemoUITests" */;
+			buildPhases = (
+				5F3CC22D1C994E840034C189 /* Sources */,
+				5F3CC22E1C994E840034C189 /* Frameworks */,
+				5F3CC22F1C994E840034C189 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F3CC2331C994E840034C189 /* PBXTargetDependency */,
+			);
+			name = "直播DemoUITests";
+			productName = "直播DemoUITests";
+			productReference = 5F3CC2311C994E840034C189 /* 直播DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F3CC2051C994E840034C189 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = feique;
+				TargetAttributes = {
+					5F3CC20C1C994E840034C189 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 43JGNW527U;
+					};
+					5F3CC2251C994E840034C189 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 43JGNW527U;
+						TestTargetID = 5F3CC20C1C994E840034C189;
+					};
+					5F3CC2301C994E840034C189 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 43JGNW527U;
+						TestTargetID = 5F3CC20C1C994E840034C189;
+					};
+				};
+			};
+			buildConfigurationList = 5F3CC2081C994E840034C189 /* Build configuration list for PBXProject "直播Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F3CC2041C994E840034C189;
+			productRefGroup = 5F3CC20E1C994E840034C189 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F3CC20C1C994E840034C189 /* 直播Demo */,
+				5F3CC2251C994E840034C189 /* 直播DemoTests */,
+				5F3CC2301C994E840034C189 /* 直播DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F3CC20B1C994E840034C189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3CC2D21C99531B0034C189 /* LiveVC.xib in Resources */,
+				5F3CC2201C994E840034C189 /* LaunchScreen.storyboard in Resources */,
+				5F3CC21D1C994E840034C189 /* Assets.xcassets in Resources */,
+				5F3CC21B1C994E840034C189 /* Main.storyboard in Resources */,
+				5F3222C31C9A56590040B8D3 /* PlayVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3CC2241C994E840034C189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3CC22F1C994E840034C189 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F3CC2091C994E840034C189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3222C21C9A56590040B8D3 /* PlayVC.m in Sources */,
+				5F3CC2181C994E840034C189 /* ViewController.m in Sources */,
+				5F3CC2151C994E840034C189 /* AppDelegate.m in Sources */,
+				5F3CC2121C994E840034C189 /* main.m in Sources */,
+				5F3CC2D11C99531B0034C189 /* LiveVC.m in Sources */,
+				5F3CC2AA1C994FFB0034C189 /* WWYLiveConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3CC2221C994E840034C189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3CC22B1C994E840034C189 /* __DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F3CC22D1C994E840034C189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F3CC2361C994E840034C189 /* __DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F3CC2281C994E840034C189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F3CC20C1C994E840034C189 /* 直播Demo */;
+			targetProxy = 5F3CC2271C994E840034C189 /* PBXContainerItemProxy */;
+		};
+		5F3CC2331C994E840034C189 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F3CC20C1C994E840034C189 /* 直播Demo */;
+			targetProxy = 5F3CC2321C994E840034C189 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5F3CC2191C994E840034C189 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F3CC21A1C994E840034C189 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F3CC21E1C994E840034C189 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F3CC21F1C994E840034C189 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F3CC2381C994E840034C189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5F3CC2391C994E840034C189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F3CC23B1C994E840034C189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/直播SDK/LiveStreaming",
+				);
+				INFOPLIST_FILE = "直播Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/直播SDK/LiveStreaming",
+					"$(PROJECT_DIR)/LiveSDK/LiveStreaming",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feique.wengwenyu.--Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F3CC23C1C994E840034C189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/直播SDK/LiveStreaming",
+				);
+				INFOPLIST_FILE = "直播Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/直播SDK/LiveStreaming",
+					"$(PROJECT_DIR)/LiveSDK/LiveStreaming",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feique.wengwenyu.--Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5F3CC23E1C994E840034C189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "直播DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feique.wengwenyu.--DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/直播Demo.app/直播Demo";
+			};
+			name = Debug;
+		};
+		5F3CC23F1C994E840034C189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "直播DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feique.wengwenyu.--DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/直播Demo.app/直播Demo";
+			};
+			name = Release;
+		};
+		5F3CC2411C994E840034C189 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "直播DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feique.wengwenyu.--DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "直播Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5F3CC2421C994E840034C189 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "直播DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.feique.wengwenyu.--DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "直播Demo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F3CC2081C994E840034C189 /* Build configuration list for PBXProject "直播Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3CC2381C994E840034C189 /* Debug */,
+				5F3CC2391C994E840034C189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F3CC23A1C994E840034C189 /* Build configuration list for PBXNativeTarget "直播Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3CC23B1C994E840034C189 /* Debug */,
+				5F3CC23C1C994E840034C189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F3CC23D1C994E840034C189 /* Build configuration list for PBXNativeTarget "直播DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3CC23E1C994E840034C189 /* Debug */,
+				5F3CC23F1C994E840034C189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F3CC2401C994E840034C189 /* Build configuration list for PBXNativeTarget "直播DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F3CC2411C994E840034C189 /* Debug */,
+				5F3CC2421C994E840034C189 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F3CC2051C994E840034C189 /* Project object */;
+}
